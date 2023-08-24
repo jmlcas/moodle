@@ -3,8 +3,8 @@ Moodle - Sistema de gestión de cursos - Docker compose
 
 Ver en "localhost:8200"
 
-Usuario: User
+Usuario: user
 
-Password: p4ssw0rd
+Password: bitnami
 
 
