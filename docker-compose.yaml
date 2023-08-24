@@ -22,6 +22,8 @@ services:
       - MOODLE_DATABASE_USER=bn_moodle 
       - MOODLE_DATABASE_PASSWORD=bitnami
       - MOODLE_DATABASE_NAME=bitnami_moodle
+      - MOODLE_USERNAME=User
+      - MOODLE_PASSWORD=p4ssw0rd      
     volumes:
       - ./moodle_data:/bitnami/moodle
       - ./moodledata_data:/bitnami/moodledata  
