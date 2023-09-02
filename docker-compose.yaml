@@ -4,6 +4,7 @@ services:
 
   mariadb:
     image: bitnami/mariadb:latest
+    container_name: moodle-db
     environment:
       - ALLOW_EMPTY_PASSWORD=yes 
       - MARIADB_USER=bn_moodle 
@@ -14,6 +15,7 @@ services:
 
   moodle:
     image: bitnami/moodle:latest
+    container_name: moodle
     ports:
       - "8200:8080"
       - "8443:8443"
